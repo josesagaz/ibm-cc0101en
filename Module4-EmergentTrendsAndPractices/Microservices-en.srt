@@ -1,0 +1,332 @@
+0
+00:00:06,880 --> 00:00:12,280
+Microservices architecture is an approach in which a single application is composed
+
+1
+00:00:12,280 --> 00:00:18,460
+of many loosely coupled and independently deployable smaller components or services.
+
+2
+00:00:18,460 --> 00:00:23,110
+These services typically have their own stack running on their own containers.
+
+3
+00:00:23,110 --> 00:00:27,350
+They communicate with one another over a combination of APIs,
+
+4
+00:00:27,350 --> 00:00:30,160
+event streaming, and message brokers.
+
+5
+00:00:30,160 --> 00:00:35,010
+For a business, what this means is that application components can be developed
+
+6
+00:00:35,010 --> 00:00:40,600
+and updated more efficiently by multiple developers working independently.
+
+7
+00:00:40,600 --> 00:00:45,430
+Teams can use different stacks and runtime environments for different components.
+
+8
+00:00:45,430 --> 00:00:49,240
+Components facing too much load can be scaled independently,
+
+9
+00:00:49,240 --> 00:00:55,180
+reducing the waste and cost associated with having to scale entire applications.
+
+10
+00:00:55,180 --> 00:01:00,550
+In this video, we'll look at how microservices have shaped application development
+
+11
+00:01:00,550 --> 00:01:06,410
+and also look at a use case that illustrates microservices in action.
+
+12
+00:01:06,410 --> 00:01:10,300
+>> The way developers work to build applications is changing.
+
+13
+00:01:10,300 --> 00:01:14,380
+In the past, software was built as large monolithic applications
+
+14
+00:01:14,380 --> 00:01:16,680
+where a team of developers would take months
+
+15
+00:01:16,680 --> 00:01:19,870
+to construct a large application built on a common code base.
+
+16
+00:01:19,870 --> 00:01:24,540
+These developers would write every part of the application from start to finish.
+
+17
+00:01:24,540 --> 00:01:27,290
+Now, after decades of software development,
+
+18
+00:01:27,290 --> 00:01:29,720
+there are vast amounts of code already out there
+
+19
+00:01:29,720 --> 00:01:32,750
+that developers can use as the base of an application,
+
+20
+00:01:32,750 --> 00:01:37,180
+meaning they no longer have to create every line of code from scratch.
+
+21
+00:01:37,180 --> 00:01:41,290
+Cloud development platforms provide developers with an ecosystem of code
+
+22
+00:01:41,290 --> 00:01:45,950
+that can be easily and securely integrated into applications.
+
+23
+00:01:45,950 --> 00:01:49,560
+Now, instead of building one huge application on one team,
+
+24
+00:01:49,560 --> 00:01:52,110
+developers break into small independent teams
+
+25
+00:01:52,110 --> 00:01:56,050
+where they write smaller amounts of code called microservices.
+
+26
+00:01:56,050 --> 00:02:00,170
+Microservices break down large applications into their core functions.
+
+27
+00:02:00,170 --> 00:02:05,460
+For example, Search, Recommendations, Customer Ratings, or Product Catalogs.
+
+28
+00:02:05,460 --> 00:02:08,020
+Each is developed independently of one another,
+
+29
+00:02:08,020 --> 00:02:12,850
+yet work together on the Cloud development platform to create a functioning application.
+
+30
+00:02:12,850 --> 00:02:16,310
+A container is the distribution method for each microservice,
+
+31
+00:02:16,310 --> 00:02:19,010
+meaning it delivers the code where it needs to go.
+
+32
+00:02:19,010 --> 00:02:23,710
+Containers are plug-and-play, so if one microservice isn't working for an application,
+
+33
+00:02:23,710 --> 00:02:25,660
+developers can take it out and
+
+34
+00:02:25,660 --> 00:02:29,730
+put in a different one without disrupting how the rest of the app functions.
+
+35
+00:02:29,730 --> 00:02:32,870
+Check out microservices in action with Ron:
+
+36
+00:02:32,870 --> 00:02:37,870
+Ron is a soccer fan who uses an online streaming media service called Dream Game.
+
+37
+00:02:37,870 --> 00:02:42,010
+Last night, he missed watching his team play their crucial semi-final match.
+
+38
+00:02:42,010 --> 00:02:45,230
+Luckily, he can watch the match tonight on Dream Game.
+
+39
+00:02:45,230 --> 00:02:49,710
+When he logs in, he sees the most popular content among all Dream Game users.
+
+40
+00:02:49,710 --> 00:02:53,810
+After some searching, he finds the match he's looking for.
+
+41
+00:02:53,810 --> 00:02:57,420
+What he would really like is to find his game with one click.
+
+42
+00:02:57,420 --> 00:03:01,840
+Luckily, the Dream Game development team is using microservices to develop
+
+43
+00:03:01,840 --> 00:03:04,560
+a better user experience for viewers like Ron.
+
+44
+00:03:04,560 --> 00:03:07,150
+The first microservice is a Content Catalog
+
+45
+00:03:07,150 --> 00:03:11,340
+housing the millions of games that Dream Game offers.
+
+46
+00:03:11,340 --> 00:03:14,490
+The small team of developers organizes each piece of content
+
+47
+00:03:14,490 --> 00:03:16,550
+with metadata that describes them.
+
+48
+00:03:16,550 --> 00:03:20,610
+This metadata feeds into a second microservice: the Search Function,
+
+49
+00:03:20,610 --> 00:03:23,450
+which ensures that Ron's search results are captured and
+
+50
+00:03:23,450 --> 00:03:25,410
+compared to the Dream Game catalog.
+
+51
+00:03:25,410 --> 00:03:27,940
+The third microservice, Recommendations,
+
+52
+00:03:27,940 --> 00:03:31,950
+captures data about the most popular content among all Dream Game users.
+
+53
+00:03:31,950 --> 00:03:35,570
+This is what generates the homepage that Ron saw when he first logged in.
+
+54
+00:03:35,570 --> 00:03:38,880
+These three microservices are all in their separate containers,
+
+55
+00:03:38,880 --> 00:03:40,480
+ready to join the application.
+
+56
+00:03:40,480 --> 00:03:43,740
+But before they can work together, they have to find one another.
+
+57
+00:03:43,740 --> 00:03:46,780
+They do this by using something called Service Discovery,
+
+58
+00:03:46,780 --> 00:03:51,180
+which creates a roadmap for these and many other microservices to communicate.
+
+59
+00:03:51,180 --> 00:03:53,070
+When microservices find each other,
+
+60
+00:03:53,070 --> 00:03:57,570
+they communicate using an application programming interface or an API.
+
+61
+00:03:57,570 --> 00:04:00,200
+So when Ron searches for his favorite soccer team,
+
+62
+00:04:00,200 --> 00:04:04,520
+the Search microservice is communicating to the Content Catalog (in an API)
+
+63
+00:04:04,520 --> 00:04:06,930
+about what Ron is looking for.
+
+64
+00:04:06,930 --> 00:04:11,260
+Now back to the goal at hand: to get Ron to his soccer game with just one click.
+
+65
+00:04:11,260 --> 00:04:16,020
+The development team working on the Recommendations microservice is updating the code,
+
+66
+00:04:16,020 --> 00:04:18,810
+adding an analytics algorithm.
+
+67
+00:04:18,810 --> 00:04:22,960
+Using analytics, the Recommendations microservice will compare Ron's viewing
+
+68
+00:04:22,960 --> 00:04:26,430
+history and preferences to popular content among other users,
+
+69
+00:04:26,430 --> 00:04:30,810
+including soccer fans and viewers in Ron's geographical region and demographic.
+
+70
+00:04:30,810 --> 00:04:34,030
+Since the developers didn't need to create the code from scratch,
+
+71
+00:04:34,030 --> 00:04:37,550
+they are able to deploy this new functionality in a matter of days.
+
+72
+00:04:37,550 --> 00:04:39,780
+These updates happen behind the scenes
+
+73
+00:04:39,780 --> 00:04:43,160
+as the rest of the microservice containers function normally.
+
+74
+00:04:43,160 --> 00:04:47,230
+The next time Ron checks Dream Game, instead of just seeing the most popular or
+
+75
+00:04:47,230 --> 00:04:51,300
+newest content, he sees a personalized playlist that will continue to refine
+
+76
+00:04:51,300 --> 00:04:55,270
+itself as the system learns more about his viewing habits and preferences.
+
+77
+00:04:55,270 --> 00:04:59,530
+The result: Ron finds his favorite team's latest game right away.
+
+78
+00:04:59,530 --> 00:05:04,070
+The microservice approach lets developers quickly innovate applications in parallel
+
+79
+00:05:04,070 --> 00:05:07,690
+and lets users like Ron focus on the things that really interest them.
+
+80
+00:05:07,690 --> 00:05:10,970
+And when those interests are changing and growing faster every day,
+
+81
+00:05:10,970 --> 00:05:14,960
+microservices help businesses keep up and grow with their customers.
+
+82
+00:05:14,960 --> 00:05:17,660
+[MUSIC]
+

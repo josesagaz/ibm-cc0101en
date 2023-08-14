@@ -1,0 +1,456 @@
+0
+00:00:00,000 --> 00:00:07,543
+[MUSIC]
+
+1
+00:00:07,543 --> 00:00:10,828
+Hybrid cloud, as we covered in the previous lesson,
+
+2
+00:00:10,828 --> 00:00:15,427
+is a computing environment that connects an organization's on-premise
+
+3
+00:00:15,427 --> 00:00:20,245
+private cloud and third-party public cloud into a single infrastructure for
+
+4
+00:00:20,245 --> 00:00:23,098
+running the organization's applications.
+
+5
+00:00:23,098 --> 00:00:27,432
+Multi-cloud is a cloud adoption strategy that embraces a mix of cloud
+
+6
+00:00:27,432 --> 00:00:31,621
+models from different service providers, public, private, and
+
+7
+00:00:31,621 --> 00:00:36,490
+managed, across infrastructure, platform, or software services.
+
+8
+00:00:36,490 --> 00:00:41,368
+For example, a business may consume email as a service from one provider,
+
+9
+00:00:41,368 --> 00:00:46,838
+a CRM application from another, and infrastructure from yet another provider.
+
+10
+00:00:46,838 --> 00:00:47,930
+So essentially,
+
+11
+00:00:47,930 --> 00:00:52,952
+a hybrid multi-cloud implies you are able to leverage the best of cloud models and
+
+12
+00:00:52,952 --> 00:00:57,687
+services across different service providers and have your applications and
+
+13
+00:00:57,687 --> 00:01:01,870
+workloads working seamlessly across multiple different clouds.
+
+14
+00:01:03,330 --> 00:01:06,112
+In this video, we will look at some use cases for
+
+15
+00:01:06,112 --> 00:01:10,470
+why a business may want to use a hybrid multi-cloud approach.
+
+16
+00:01:10,470 --> 00:01:13,753
+>> In this video, I want to touch on a few of those use cases for
+
+17
+00:01:13,753 --> 00:01:17,154
+why a business may want to to use hybrid or multi-cloud.
+
+18
+00:01:17,154 --> 00:01:20,710
+Let's start with the basic one, cloud scaling.
+
+19
+00:01:22,570 --> 00:01:24,908
+Now, most of us are probably familiar with this.
+
+20
+00:01:24,908 --> 00:01:27,980
+It's one of the main reasons for adopting the cloud.
+
+21
+00:01:27,980 --> 00:01:32,673
+Now let's say we have a flower delivery service that is able to hit a certain
+
+22
+00:01:32,673 --> 00:01:34,246
+bottom line of users.
+
+23
+00:01:34,246 --> 00:01:41,338
+They have on premise infrastructure and it can hit a certain amount of user load.
+
+24
+00:01:41,338 --> 00:01:43,124
+So visualizing this here.
+
+25
+00:01:43,124 --> 00:01:48,649
+Throughout a calendar year, you can imagine that their load maybe goes up and
+
+26
+00:01:48,649 --> 00:01:51,818
+down and responds to specific holidays.
+
+27
+00:01:51,818 --> 00:01:56,876
+Now, to hit those peaks, they could scale up their on premise architecture,
+
+28
+00:01:56,876 --> 00:02:00,622
+but that's met with upfront costs and costs of upkeep.
+
+29
+00:02:00,622 --> 00:02:05,022
+Now instead, what they'll instead do is take advantage of cloud
+
+30
+00:02:05,022 --> 00:02:08,702
+that allows them to scale up in response to that load and
+
+31
+00:02:08,702 --> 00:02:13,900
+then automatically deprovision resources when they no longer need them.
+
+32
+00:02:13,900 --> 00:02:17,980
+Now, this concept is kind of general to cloud computing, not just hybrid or
+
+33
+00:02:17,980 --> 00:02:18,998
+multi-cloud.
+
+34
+00:02:18,998 --> 00:02:21,374
+But that brings me to my next topic, and
+
+35
+00:02:21,374 --> 00:02:26,211
+here we're going to be talking about how it can be used to build a composite cloud.
+
+36
+00:02:29,454 --> 00:02:34,029
+So essentially this is going to be applications that are spread across
+
+37
+00:02:34,029 --> 00:02:36,346
+multiple cloud environments.
+
+38
+00:02:36,346 --> 00:02:38,852
+So back to the flower delivery service.
+
+39
+00:02:38,852 --> 00:02:43,049
+Let's say they have on premise architecture that allows them to run three
+
+40
+00:02:43,049 --> 00:02:45,016
+major components of their app.
+
+41
+00:02:45,016 --> 00:02:50,129
+So let's say they have the Web UI, they have some
+
+42
+00:02:50,129 --> 00:02:55,138
+billing APIs, as well as a rewards framework.
+
+43
+00:02:59,067 --> 00:03:03,268
+Now let's say that this service is actually based in EU and
+
+44
+00:03:03,268 --> 00:03:06,156
+their European customers are happy.
+
+45
+00:03:06,156 --> 00:03:10,664
+But for their North American or American customers, specifically around
+
+46
+00:03:10,664 --> 00:03:15,872
+Veterans Day or Thanksgiving, they're noticing that the system is bogging down.
+
+47
+00:03:15,872 --> 00:03:21,265
+And so they decide to take advantage of a hybrid cloud or multi-cloud architecture
+
+48
+00:03:21,265 --> 00:03:26,074
+by composing their application across multiple cloud environments.
+
+49
+00:03:26,074 --> 00:03:30,546
+So, they'll take advantage of data centers in America and essentially they've
+
+50
+00:03:30,546 --> 00:03:34,499
+identified that although the rewards framework can stay on prem in their
+
+51
+00:03:34,499 --> 00:03:38,760
+European side, they want to move the billing and the UI capabilities over.
+
+52
+00:03:38,760 --> 00:03:43,189
+So, they'll move just those two to a cloud platform of
+
+53
+00:03:43,189 --> 00:03:48,108
+their choice in a North American or American data center.
+
+54
+00:03:48,108 --> 00:03:52,261
+This kind of allows them to scale up portions in response to, say,
+
+55
+00:03:52,261 --> 00:03:57,058
+American holidays while keeping their EU portions individually scaled.
+
+56
+00:03:57,058 --> 00:04:01,685
+So in this example, the flower delivery service is able to take advantage of
+
+57
+00:04:01,685 --> 00:04:07,230
+scaling at a global level by using the hybrid or multi-cloud architecture.
+
+58
+00:04:07,230 --> 00:04:11,330
+Next, let's talk about the airline or travel industry.
+
+59
+00:04:11,330 --> 00:04:15,102
+So we can first start with an example of modernization.
+
+60
+00:04:19,061 --> 00:04:22,794
+Now, in the past we've seen that reservation systems may have been
+
+61
+00:04:22,794 --> 00:04:25,924
+difficult to work with or you might have had to call in.
+
+62
+00:04:25,924 --> 00:04:30,230
+But almost all all the airline companies now have a mobile application.
+
+63
+00:04:30,230 --> 00:04:33,846
+So most of the time, and we've actually found that it's about,
+
+64
+00:04:33,846 --> 00:04:36,476
+in general not just in the travel industry, but
+
+65
+00:04:36,476 --> 00:04:40,354
+80% of all enterprise applications are actually still on prem.
+
+66
+00:04:40,354 --> 00:04:42,924
+And that's likely the case in this industry as well.
+
+67
+00:04:42,924 --> 00:04:47,522
+So in this specific example, let's say they have a reservation system that's
+
+68
+00:04:47,522 --> 00:04:51,503
+running on prem, but to create new experiences for their end users,
+
+69
+00:04:51,503 --> 00:04:55,470
+let's say they've created a mobile application.
+
+70
+00:04:55,470 --> 00:05:00,432
+That mobile app, of course, has a mobile backend that's maybe running in
+
+71
+00:05:00,432 --> 00:05:05,076
+a public cloud and that in turn works with the reservation service.
+
+72
+00:05:05,076 --> 00:05:08,436
+So, again, the mobile app can hit the mobile backend and
+
+73
+00:05:08,436 --> 00:05:11,914
+that in turn works with the reservation capabilities.
+
+74
+00:05:11,914 --> 00:05:16,710
+So in this case they've modernized and new user experiences are possible.
+
+75
+00:05:16,710 --> 00:05:18,798
+But let's take that a step further.
+
+76
+00:05:18,798 --> 00:05:21,060
+Now, a source for a lot of dissatisfaction for
+
+77
+00:05:21,060 --> 00:05:23,438
+users is whenever their flights are delayed.
+
+78
+00:05:23,438 --> 00:05:26,702
+So when a flight is delayed, they may have to rebook new flights.
+
+79
+00:05:26,702 --> 00:05:28,860
+The solution is almost always the same.
+
+80
+00:05:28,860 --> 00:05:33,530
+The traveler wants to get to his destination in the easiest way possible.
+
+81
+00:05:33,530 --> 00:05:37,216
+So what airline industries have been doing is taking advantage
+
+82
+00:05:37,216 --> 00:05:40,910
+of the cloud to create maybe a recommendation feature.
+
+83
+00:05:40,910 --> 00:05:45,922
+So, it allows them to book new flights as soon as a delay is recommended or
+
+84
+00:05:45,922 --> 00:05:48,150
+as soon as a delay is incurred.
+
+85
+00:05:48,150 --> 00:05:52,522
+And that's going to connect up to that mobile back end service, allowing users to
+
+86
+00:05:52,522 --> 00:05:56,810
+be able to book flights through their phone the second a flight is delayed.
+
+87
+00:05:56,810 --> 00:06:00,126
+This not only improves the bottom line for the airline industry, but
+
+88
+00:06:00,126 --> 00:06:01,434
+leads to happier users.
+
+89
+00:06:01,434 --> 00:06:04,870
+So that's one way the modernization has been done.
+
+90
+00:06:04,870 --> 00:06:10,450
+Next, let's take it even a step further and talk about data and AI.
+
+91
+00:06:11,990 --> 00:06:13,155
+For data and AI,
+
+92
+00:06:13,155 --> 00:06:18,636
+the airline industry has been taking advantage of lots of historical data.
+
+93
+00:06:18,636 --> 00:06:22,504
+So over the decades that a company has been around, let's say they
+
+94
+00:06:22,504 --> 00:06:28,170
+have historical data of when unplanned maintenance has happened on their airline.
+
+95
+00:06:28,170 --> 00:06:32,539
+In fact, 30% of all delay time in the airline industry is actually when
+
+96
+00:06:32,539 --> 00:06:34,768
+unplanned maintenance happens.
+
+97
+00:06:34,768 --> 00:06:38,608
+So by taking advantage of, let's say, machine learning or
+
+98
+00:06:38,608 --> 00:06:43,501
+AI capabilities, they could hook into all of the legacy data that they have,
+
+99
+00:06:43,501 --> 00:06:48,770
+large volumes and connect them up to machine learning and AI capabilities.
+
+100
+00:06:48,770 --> 00:06:53,379
+This allows airline industries to take advantage of predictive analytics and
+
+101
+00:06:53,379 --> 00:06:58,094
+get insights before errors or before the unplanned maintenance ever occurs.
+
+102
+00:06:58,094 --> 00:07:00,671
+This again improves their bottom line,
+
+103
+00:07:00,671 --> 00:07:05,510
+leading to happier users and a more efficient airline industry.
+
+104
+00:07:05,510 --> 00:07:09,241
+Now, today we talked about four major use cases for hybrid and
+
+105
+00:07:09,241 --> 00:07:10,904
+multi-cloud platforms.
+
+106
+00:07:10,904 --> 00:07:15,868
+So cloud scaling and composite cloud in the flower delivery service as well
+
+107
+00:07:15,868 --> 00:07:19,506
+as modernize and data and AI for the airline industry.
+
+108
+00:07:19,506 --> 00:07:24,542
+>> Another reason for adopting hybrid multi-cloud strategy is to prevent lock-in
+
+109
+00:07:24,542 --> 00:07:29,344
+to a specific vendor's cloud platform and having flexibility of being
+
+110
+00:07:29,344 --> 00:07:34,392
+able to move work loads from one cloud platform to another as the need arises.
+
+111
+00:07:34,392 --> 00:07:39,556
+In the next video, we will understand what a microservices architecture is,
+
+112
+00:07:39,556 --> 00:07:42,386
+its features, benefits, and use cases.
+
+113
+00:07:42,386 --> 00:07:42,886
+[MUSIC]
+

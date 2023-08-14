@@ -1,0 +1,356 @@
+0
+00:00:05,910 --> 00:00:10,920
+According to the Cloud Security Report by Cybersecurity Insiders,
+
+1
+00:00:10,920 --> 00:00:15,120
+the top cloud security concern of cybersecurity professionals
+
+2
+00:00:15,120 --> 00:00:17,530
+is data loss and leakage.
+
+3
+00:00:17,530 --> 00:00:21,300
+Unauthorized access through misuse of employee credentials
+
+4
+00:00:21,300 --> 00:00:23,410
+and improper access controls
+
+5
+00:00:23,410 --> 00:00:27,720
+is the single biggest perceived vulnerability to cloud security,
+
+6
+00:00:27,720 --> 00:00:32,020
+followed by insecure interfaces and APIs.
+
+7
+00:00:32,520 --> 00:00:37,360
+In this video, we will look at how Identity and Access Management,
+
+8
+00:00:37,360 --> 00:00:42,020
+also known as access control, works as the first line of defense,
+
+9
+00:00:42,020 --> 00:00:45,470
+allowing you to authenticate and authorize users
+
+10
+00:00:45,470 --> 00:00:52,780
+and provide user-specific access to cloud resources, services, and applications.
+
+11
+00:00:52,780 --> 00:00:59,620
+A comprehensive security strategy needs to encompass the security needs of a wide audience
+
+12
+00:00:59,620 --> 00:01:04,170
+—including organizational users, internet and social-based users,
+
+13
+00:01:04,170 --> 00:01:09,020
+third-party business partner organizations and vendors.
+
+14
+00:01:09,020 --> 00:01:11,140
+There are three main types of users:
+
+15
+00:01:11,140 --> 00:01:17,010
+Administrative Users, Developer Users, and Application Users.
+
+16
+00:01:17,010 --> 00:01:23,470
+Administrative users include cloud platform administrators, operators, and managers:
+
+17
+00:01:23,470 --> 00:01:29,020
+—roles that typically create, update, and delete application and service instances,
+
+18
+00:01:29,190 --> 00:01:33,470
+and also need insight into their team members’ activities.
+
+19
+00:01:33,470 --> 00:01:35,860
+An attacker on an administrative account
+
+20
+00:01:35,860 --> 00:01:39,660
+can steal data from production database service instances,
+
+21
+00:01:39,660 --> 00:01:43,290
+deploy malicious applications inside the customer's domain,
+
+22
+00:01:43,290 --> 00:01:47,950
+or even deface or destroy existing applications.
+
+23
+00:01:47,950 --> 00:01:52,120
+Developer users include cloud application developers,
+
+24
+00:01:52,120 --> 00:01:55,710
+platform developers, and application publishers.
+
+25
+00:01:55,710 --> 00:01:59,460
+Developer users are authorized to read sensitive information
+
+26
+00:01:59,460 --> 00:02:03,600
+and to create, update, and delete applications.
+
+27
+00:02:03,600 --> 00:02:06,940
+The third type of user is the Application user.
+
+28
+00:02:06,940 --> 00:02:10,540
+These are the users of the cloud-hosted applications.
+
+29
+00:02:10,540 --> 00:02:15,760
+Let’s look at the key components of identity and access management, and how they work.
+
+30
+00:02:15,760 --> 00:02:18,530
+Authentication, or the identity service,
+
+31
+00:02:18,530 --> 00:02:24,610
+enables applications deployed to the cloud to authenticate users at an application level,
+
+32
+00:02:24,610 --> 00:02:28,750
+based on a range of identity providers such as the cloud directory,
+
+33
+00:02:28,750 --> 00:02:33,860
+social identity providers such as Google, LinkedIn, Facebook, and Twitter,
+
+34
+00:02:33,860 --> 00:02:40,850
+enterprise-hosted identity provider, and cloud-hosted identity provider.
+
+35
+00:02:40,850 --> 00:02:44,190
+Sometimes API keys, or unique identifiers
+
+36
+00:02:44,190 --> 00:02:49,880
+are passed into an API to identify the calling application or user.
+
+37
+00:02:50,330 --> 00:02:55,230
+Multifactor authentication is used to combat identity theft
+
+38
+00:02:55,230 --> 00:02:59,840
+by adding an additional layer of authentication for application users,
+
+39
+00:02:59,840 --> 00:03:04,590
+such as single-use passwords or pins, certificates, tokens,
+
+40
+00:03:04,590 --> 00:03:08,980
+risk-based authentication, (such as changes in the user’s location,
+
+41
+00:03:08,980 --> 00:03:12,520
+past activity, and preferences.)
+
+42
+00:03:12,520 --> 00:03:17,370
+Cloud Directory services are used to securely manage user profiles
+
+43
+00:03:17,370 --> 00:03:22,590
+and their associated credentials and password policy inside a cloud environment.
+
+44
+00:03:22,590 --> 00:03:27,820
+A directory service within a cloud means that applications hosted on the cloud
+
+45
+00:03:27,820 --> 00:03:32,260
+do not need to use their own user repository.
+
+46
+00:03:32,260 --> 00:03:37,180
+Reporting helps provide a user-centric view of access to resources
+
+47
+00:03:37,180 --> 00:03:40,960
+or a resource-centric view of access by users.
+
+48
+00:03:40,960 --> 00:03:46,530
+Reports typically give information about which users have access to which resources,
+
+49
+00:03:46,530 --> 00:03:49,300
+which users have changes in access rights,
+
+50
+00:03:49,480 --> 00:03:55,950
+which access is being exploited by each user, and under which conditions.
+
+51
+00:03:55,950 --> 00:03:57,550
+Audit and compliance
+
+52
+00:03:57,550 --> 00:04:01,860
+is a critical service within identity and access management framework,
+
+53
+00:04:01,860 --> 00:04:05,420
+both for cloud provider, and cloud consumer.
+
+54
+00:04:05,420 --> 00:04:09,620
+Auditors use these processes to validate implemented controls
+
+55
+00:04:09,620 --> 00:04:14,160
+against an organization's security policy, industry compliance,
+
+56
+00:04:14,160 --> 00:04:19,300
+and risk policies--and to report deviations.
+
+57
+00:04:19,300 --> 00:04:25,400
+User and service access management capability enables cloud application and service owners
+
+58
+00:04:25,400 --> 00:04:30,650
+to provision and de-provision customer, partner, and vendor user profiles
+
+59
+00:04:30,650 --> 00:04:32,930
+with minimal human interaction.
+
+60
+00:04:32,930 --> 00:04:38,980
+This streamlines access control based on the role, organization, and access policies
+
+61
+00:04:38,980 --> 00:04:41,160
+defined by the owner.
+
+62
+00:04:41,160 --> 00:04:46,980
+User accounts of administrators and developers give access to sensitive information.
+
+63
+00:04:46,980 --> 00:04:50,780
+In order to mitigate the risks of these accounts being hacked into,
+
+64
+00:04:50,780 --> 00:04:55,770
+you require maximum control over the whole life cycle of these users.
+
+65
+00:04:55,770 --> 00:05:00,200
+Some of the controls that can help secure these sensitive accounts include:
+
+66
+00:05:00,200 --> 00:05:06,250
+provisioning users by specifying roles on resources for each user;
+
+67
+00:05:06,250 --> 00:05:10,180
+password policies that control the usage of special characters,
+
+68
+00:05:10,180 --> 00:05:14,320
+minimum password lengths and other similar settings;
+
+69
+00:05:14,320 --> 00:05:18,640
+multifactor authentication like time-based one-time passwords;
+
+70
+00:05:18,640 --> 00:05:24,770
+and immediate de-provisioning of access when users leave or change roles.
+
+71
+00:05:24,770 --> 00:05:29,300
+Cloud providers offer Identity Access and Management services,
+
+72
+00:05:29,300 --> 00:05:32,670
+typically including the ability to create access groups,
+
+73
+00:05:32,670 --> 00:05:38,100
+add users to access groups, and manage access for existing users.
+
+74
+00:05:38,100 --> 00:05:41,950
+An access group is a group of users and service IDs
+
+75
+00:05:41,950 --> 00:05:46,650
+created so that the same access can be assigned to all entities within the group
+
+76
+00:05:46,650 --> 00:05:50,490
+with one or more access policies.
+
+77
+00:05:50,490 --> 00:05:56,620
+Access policies define how users, service IDs, and access groups in the account
+
+78
+00:05:56,620 --> 00:06:00,630
+are given permission to access account resources.
+
+79
+00:06:00,630 --> 00:06:07,090
+Policies include: a subject, which can be users, service IDs, or access groups;
+
+80
+00:06:07,090 --> 00:06:11,690
+a target, which is the resource or provisioned service offering,
+
+81
+00:06:11,690 --> 00:06:14,290
+to which you want to provide access;
+
+82
+00:06:14,290 --> 00:06:19,300
+and role, which defines the actions allowed on the target of the policy,
+
+83
+00:06:19,300 --> 00:06:24,380
+that is, the resource to which the access is being granted.
+
+84
+00:06:24,380 --> 00:06:28,530
+Access groups provide a more streamlined access assignment process
+
+85
+00:06:28,530 --> 00:06:32,220
+as compared to assigning individual access to each user
+
+86
+00:06:32,220 --> 00:06:36,940
+and help reduce the number of policies in an account.
+
+87
+00:06:36,940 --> 00:06:41,180
+In this video, we learned how Identity and Access Management
+
+88
+00:06:41,180 --> 00:06:44,860
+work as the first line of defense to secure the cloud.
+

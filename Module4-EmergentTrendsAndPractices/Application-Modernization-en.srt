@@ -1,0 +1,456 @@
+0
+00:00:00,000 --> 00:00:06,980
+(Music)
+
+1
+00:00:06,980 --> 00:00:12,180
+Many organizations have huge investments in existing applications
+
+2
+00:00:12,180 --> 00:00:15,380
+that are often siloed in legacy systems
+
+3
+00:00:15,380 --> 00:00:20,320
+and are very difficult and expensive to update and maintain.
+
+4
+00:00:20,320 --> 00:00:25,530
+Modernizing these applications can unlock great benefits for these organizations
+
+5
+00:00:25,530 --> 00:00:28,540
+such as accelerating their digital transformations,
+
+6
+00:00:28,540 --> 00:00:32,800
+enabling them to take advantage of new technologies and services,
+
+7
+00:00:32,800 --> 00:00:36,270
+and becoming more responsive to their customers' needs
+
+8
+00:00:36,270 --> 00:00:38,800
+and changing market dynamics.
+
+9
+00:00:38,800 --> 00:00:44,830
+Cloud computing is one of the three main ingredients in Application Modernization.
+
+10
+00:00:44,830 --> 00:00:48,080
+In the rest of this video we will see how,
+
+11
+00:00:48,080 --> 00:00:51,980
+and what else Application Modernization entails.
+
+12
+00:00:51,980 --> 00:00:59,530
+Hi, I'm Eric Minick, with IBM Cloud, and I want to talk about application modernization
+
+13
+00:00:59,530 --> 00:01:06,650
+and three huge transformations that have been going on together.
+
+14
+00:01:06,650 --> 00:01:10,340
+We've got three things going on, they're interrelated,
+
+15
+00:01:10,340 --> 00:01:16,580
+and this is what we're seeing, this change in how we're doing architecture, infrastructure,
+
+16
+00:01:16,580 --> 00:01:19,260
+and our ways of working - how we deliver.
+
+17
+00:01:19,260 --> 00:01:25,770
+And if we go back in time a little bit, we saw applications that were very monolithic,
+
+18
+00:01:25,770 --> 00:01:31,390
+they were running on physical servers and we used waterfall style development
+
+19
+00:01:31,390 --> 00:01:36,370
+where we'd have long plans and we'd say okay, this is gonna be our planning phase,
+
+20
+00:01:36,370 --> 00:01:42,290
+our development phase, our testing phase, and we could plan out a year as a project.
+
+21
+00:01:42,290 --> 00:01:44,680
+And that's really what we've gone away from.
+
+22
+00:01:44,680 --> 00:01:50,030
+So if we look at how most organizations are working today,
+
+23
+00:01:50,030 --> 00:01:56,180
+architecturally, they've got some sort of distributed architecture.
+
+24
+00:01:56,180 --> 00:02:00,570
+It's usually related to a service-oriented architecture;
+
+25
+00:02:00,570 --> 00:02:04,000
+the big buzzwords a few years ago,
+
+26
+00:02:04,000 --> 00:02:08,820
+but some sort of distributed architecture: we have a bunch of web services,
+
+27
+00:02:08,820 --> 00:02:12,420
+they're talking to each other, we've got some databases on the back end,
+
+28
+00:02:12,420 --> 00:02:16,830
+and then some front ends that kind of go through all that.
+
+29
+00:02:16,830 --> 00:02:23,350
+On an infrastructure level, they're running on some sort of a virtual machine, alright?
+
+30
+00:02:23,350 --> 00:02:24,850
+So, we said:
+
+31
+00:02:24,850 --> 00:02:30,440
+we could probably do better than having to order a new server every time we have a new service.
+
+32
+00:02:30,440 --> 00:02:34,800
+Let's virtualize this stuff, and we need a little more density along the way.
+
+33
+00:02:34,800 --> 00:02:42,400
+And from a way of working; you know, Agile development, pretty normal--
+
+34
+00:02:42,400 --> 00:02:46,140
+and then trying to figure out a little bit of what happens downstream.
+
+35
+00:02:46,140 --> 00:02:54,210
+So this takes us up to where a lot of teams are today, but not really where they're going.
+
+36
+00:02:54,210 --> 00:02:58,930
+And so if we look at that next phase.
+
+37
+00:02:58,930 --> 00:03:03,220
+We're taking another pass at this service-oriented architecture,
+
+38
+00:03:03,220 --> 00:03:06,190
+and really shrinking the sizes of the services,
+
+39
+00:03:06,190 --> 00:03:10,000
+taking advantage of the more dynamic infrastructure we have.
+
+40
+00:03:10,000 --> 00:03:15,630
+And we're calling these now microservices, right?
+
+41
+00:03:15,630 --> 00:03:18,850
+Microservices.
+
+42
+00:03:18,850 --> 00:03:27,040
+So we've got a microservice architecture, so very small, very focused services,
+
+43
+00:03:27,040 --> 00:03:32,150
+moving away from a lot of the heavyweight XML-based communication we saw in SOA,
+
+44
+00:03:32,150 --> 00:03:35,890
+towards more REST-based communication, things like that.
+
+45
+00:03:35,890 --> 00:03:40,620
+But same idea, let's keep breaking into smaller and smaller pieces.
+
+46
+00:03:40,620 --> 00:03:45,000
+We have more independence of what we ship.
+
+47
+00:03:45,000 --> 00:03:50,280
+More rigor in saying this service needs to be independent from another service,
+
+48
+00:03:50,280 --> 00:03:53,270
+so I can change these things by themselves.
+
+49
+00:03:53,270 --> 00:03:59,260
+On the infrastructure side: Cloud.
+
+50
+00:03:59,260 --> 00:04:00,740
+Cloud's pretty popular.
+
+51
+00:04:00,740 --> 00:04:05,610
+And this could be public cloud, this could also be private cloud.
+
+52
+00:04:05,610 --> 00:04:10,930
+I'm painting with a very broad brush when I say cloud here.
+
+53
+00:04:10,930 --> 00:04:18,720
+And then from a delivery, in a way of working: we could say that DevOps is really key.
+
+54
+00:04:18,720 --> 00:04:26,860
+And I would include in this, approaches like site reliability engineering, SRE.
+
+55
+00:04:26,860 --> 00:04:30,280
+More the ways of working we have today.
+
+56
+00:04:30,280 --> 00:04:33,990
+Now that that's fine and interesting.
+
+57
+00:04:33,990 --> 00:04:37,550
+But what do these things have to do with each other?
+
+58
+00:04:37,550 --> 00:04:43,120
+I'd argue that what we're really seeing is modernization in
+
+59
+00:04:43,120 --> 00:04:49,810
+in how the applications are delivered, and how they're built--and what they are.
+
+60
+00:04:49,810 --> 00:04:56,380
+And while you could walk into any large enterprise today
+
+61
+00:04:56,380 --> 00:05:00,780
+and you'll find someone who says "We are going through a cloud transformation."
+
+62
+00:05:00,780 --> 00:05:05,240
+You'll often find someone who says, "Yes, I'm in charge of leading the DevOps transformation."
+
+63
+00:05:05,240 --> 00:05:10,830
+You'll walk into enterprise architecture, they'll say, "Yes, we are pushing microservice architectures."
+
+64
+00:05:10,830 --> 00:05:15,450
+Individuals think that they're going through three separate transformations.
+
+65
+00:05:15,450 --> 00:05:17,030
+But they're really tied.
+
+66
+00:05:17,030 --> 00:05:18,940
+Right?
+
+67
+00:05:18,940 --> 00:05:25,520
+If I'm doing microservices, and I have new microservices all the time.
+
+68
+00:05:25,520 --> 00:05:30,230
+And in order to get a new microservice up and running,
+
+69
+00:05:30,230 --> 00:05:34,640
+I'm over here, and I have to order a new physical server,
+
+70
+00:05:34,640 --> 00:05:38,910
+and then rack and stack it a couple months later.
+
+71
+00:05:38,910 --> 00:05:42,230
+I'm not gonna get any time-to-market benefits.
+
+72
+00:05:42,230 --> 00:05:46,520
+The resilience benefits that I'm gonna normally look for
+
+73
+00:05:46,520 --> 00:05:49,480
+from microservices are gonna be modest, at best.
+
+74
+00:05:49,480 --> 00:05:53,540
+Microservices want cloud infrastructure. You want to be able to say,
+
+75
+00:05:53,540 --> 00:05:56,590
+I've got a new microservice; let me put it in a container and
+
+76
+00:05:56,590 --> 00:06:00,160
+just run that container right now and scale that dynamically.
+
+77
+00:06:00,160 --> 00:06:04,530
+Similarly, cloud really likes running microservices.
+
+78
+00:06:04,530 --> 00:06:08,970
+The benefits of being able to dynamically scale
+
+79
+00:06:08,970 --> 00:06:15,220
+are really cool when you have a lot of small things that you might need a few of or a lot of.
+
+80
+00:06:15,220 --> 00:06:21,070
+It's not as interesting when I've got a monolith that isn't even distributed. How do I scale that?
+
+81
+00:06:21,070 --> 00:06:23,920
+I get a bigger cloud server?
+
+82
+00:06:24,420 --> 00:06:31,650
+And then all of this is kind of, baking in this idea of speed and resiliency,
+
+83
+00:06:31,650 --> 00:06:35,720
+and DevOps brings that together.
+
+84
+00:06:35,720 --> 00:06:38,900
+The developers who have always wanted speed,
+
+85
+00:06:38,900 --> 00:06:44,320
+the operations people who've always wanted that resiliency.
+
+86
+00:06:44,320 --> 00:06:47,840
+They're going to be programming that cloud. Right?
+
+87
+00:06:47,840 --> 00:06:51,210
+The programmable infrastructure that cloud provides
+
+88
+00:06:51,210 --> 00:06:55,360
+needs operations people who understand resiliency--
+
+89
+00:06:55,360 --> 00:06:57,820
+but bring some of that development skill in.
+
+90
+00:06:57,820 --> 00:07:03,540
+And to really take advantage of these new infrastructures, the new architectures,
+
+91
+00:07:03,540 --> 00:07:05,740
+you need these new ways of working.
+
+92
+00:07:05,740 --> 00:07:12,010
+And you also are gonna say, "if this is going to give me time-to-market benefits,
+
+93
+00:07:12,010 --> 00:07:19,220
+I can't be back here, and say 'Yeah, we've got a one-year project plan that we're just gonna execute.'"
+
+94
+00:07:19,220 --> 00:07:25,180
+I need to be able to be more agile, and adapt in my planning and my responsiveness to the business.
+
+95
+00:07:25,180 --> 00:07:33,460
+I need to better wire up my applications so they can be more easily monitored and more resilient.
+
+96
+00:07:33,460 --> 00:07:36,580
+We have to have the application in a way that,
+
+97
+00:07:36,580 --> 00:07:42,120
+it knows when one of these services is failing, and we can spin up another.
+
+98
+00:07:42,120 --> 00:07:51,520
+So this is really, for me, fascinating, that you walk into these organizations everywhere,
+
+99
+00:07:51,520 --> 00:07:55,040
+and they're undergoing these three different transformations.
+
+100
+00:07:55,040 --> 00:07:57,220
+But they're always doing them together.
+
+101
+00:07:57,220 --> 00:08:00,940
+And when they don't - it doesn't quite work.
+
+102
+00:08:00,940 --> 00:08:04,840
+So you've got these three transformations going on at once.
+
+103
+00:08:04,840 --> 00:08:09,820
+And you'll hear us talk a lot about application modernization.
+
+104
+00:08:09,820 --> 00:08:13,580
+See it written across the top here?
+
+105
+00:08:13,580 --> 00:08:18,530
+When I think of application modernization, I think it's just this.
+
+106
+00:08:18,530 --> 00:08:21,970
+It's this transformation right here;
+
+107
+00:08:21,970 --> 00:08:26,970
+going from these kind of monoliths, or service-oriented architectures,
+
+108
+00:08:26,970 --> 00:08:28,330
+to microservices;
+
+109
+00:08:28,330 --> 00:08:29,850
+adopting Cloud;
+
+110
+00:08:29,850 --> 00:08:34,130
+modernizing our ways of working towards DevOps and SRE.
+
+111
+00:08:34,130 --> 00:08:35,710
+That's AppMod.
+
+112
+00:08:35,710 --> 00:08:38,370
+It's a really exciting time.
+
+113
+00:08:38,370 --> 00:08:42,730
+And it's really great when you're able to go after it in a holistic fashion.
+

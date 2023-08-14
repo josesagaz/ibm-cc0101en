@@ -1,0 +1,256 @@
+0
+00:00:00,000 --> 00:00:07,689
+[MUSIC]
+
+1
+00:00:07,689 --> 00:00:12,108
+Development teams need to design, develop, deliver, and
+
+2
+00:00:12,108 --> 00:00:16,340
+run software as reliably and efficiently as possible.
+
+3
+00:00:16,340 --> 00:00:21,124
+Operations teams need to identify and resolve problems as soon as possible by
+
+4
+00:00:21,124 --> 00:00:26,604
+monitoring, predicting failure, managing the environment, and fixing issues.
+
+5
+00:00:26,604 --> 00:00:30,983
+Combining development and operations with the ability to monitor and
+
+6
+00:00:30,983 --> 00:00:34,257
+analyze and optimize bottlenecks gives us DevOps.
+
+7
+00:00:34,257 --> 00:00:39,336
+A collaborative approach where business owners, and the development, operations,
+
+8
+00:00:39,336 --> 00:00:43,974
+and quality assurance teams collaborate to continuously deliver software.
+
+9
+00:00:43,974 --> 00:00:48,957
+A DevOps approach applies agile and lean thinking principles to all stakeholders
+
+10
+00:00:48,957 --> 00:00:53,578
+in an organization who develop, operate, or benefit from the business's
+
+11
+00:00:53,578 --> 00:00:57,898
+software systems, including customers, suppliers, partners.
+
+12
+00:00:57,898 --> 00:01:02,862
+By extending lean principles across the software supply chain, DevOps capabilities
+
+13
+00:01:02,862 --> 00:01:07,014
+improve productivity through accelerated customer feedback cycles.
+
+14
+00:01:07,014 --> 00:01:11,190
+Unified measurements and collaboration across an enterprise, and
+
+15
+00:01:11,190 --> 00:01:14,286
+reduced overhead, duplication, and rework.
+
+16
+00:01:14,286 --> 00:01:19,668
+Using the DevOps approach, developers can produce software in short iterations
+
+17
+00:01:19,668 --> 00:01:24,981
+on a continuous delivery schedule of new features and bug fixes in rapid cycles.
+
+18
+00:01:24,981 --> 00:01:27,719
+And businesses can seize market opportunities and
+
+19
+00:01:27,719 --> 00:01:31,152
+reduce time to include customer feedback in their products.
+
+20
+00:01:31,152 --> 00:01:36,442
+The DevOps process involves continuous delivery, which is about delivering small,
+
+21
+00:01:36,442 --> 00:01:40,964
+well-designed, high quality increments of software to customers.
+
+22
+00:01:40,964 --> 00:01:42,597
+Continuous integration,
+
+23
+00:01:42,597 --> 00:01:47,215
+creating packaged builds of the code changes released as immutable images.
+
+24
+00:01:47,215 --> 00:01:50,914
+Where immutable implies that when modifications are needed,
+
+25
+00:01:50,914 --> 00:01:54,481
+the entire component is replaced with an upgraded version.
+
+26
+00:01:54,481 --> 00:01:58,875
+Continuous deployment, which involves progressing each new packaged build
+
+27
+00:01:58,875 --> 00:02:02,360
+through the deployment lifecycle as rapidly as possible.
+
+28
+00:02:02,360 --> 00:02:07,233
+Continuous monitoring with tools that help developers understand the performance and
+
+29
+00:02:07,233 --> 00:02:11,851
+availability of their applications even before they are deployed to production.
+
+30
+00:02:11,851 --> 00:02:17,360
+Delivery pipeline, which is an automated sequence of steps that involves the stages
+
+31
+00:02:17,360 --> 00:02:23,252
+of ideation, coding, building, deploying, managing, and continuous improvement,
+
+32
+00:02:23,252 --> 00:02:27,574
+which loops back to the ideation phase in the delivery pipeline.
+
+33
+00:02:27,574 --> 00:02:33,054
+While DevOps can apply to applications anywhere, there is especially a compelling
+
+34
+00:02:33,054 --> 00:02:38,008
+case for DevOps when it comes to cloud ready and cloud native applications.
+
+35
+00:02:38,008 --> 00:02:43,104
+With its near limitless compute power and available data and application services,
+
+36
+00:02:43,104 --> 00:02:47,422
+cloud computing platforms come with their own risks and challenges.
+
+37
+00:02:47,422 --> 00:02:52,064
+DevOps tools, practices, and processes are helping tackle some of
+
+38
+00:02:52,064 --> 00:02:55,746
+the complexities and challenges posed by the cloud and
+
+39
+00:02:55,746 --> 00:02:59,906
+allowing solutions to be delivered quickly and reliably.
+
+40
+00:02:59,906 --> 00:03:04,362
+Let's look at some core capabilities that DevOps provides to help building and
+
+41
+00:03:04,362 --> 00:03:07,730
+running applications in the cloud a lot more manageable.
+
+42
+00:03:07,730 --> 00:03:12,596
+DevOps best practices make it possible to programmatically provision servers,
+
+43
+00:03:12,596 --> 00:03:15,492
+build middleware, install application code,
+
+44
+00:03:15,492 --> 00:03:20,349
+and fully automate the installation process in a way that is documented,
+
+45
+00:03:20,349 --> 00:03:23,341
+repeatable, verifiable, and traceable.
+
+46
+00:03:23,341 --> 00:03:27,274
+Application deployments often involve considerable complexity.
+
+47
+00:03:27,274 --> 00:03:30,281
+The DevOps practices of continuous integration and
+
+48
+00:03:30,281 --> 00:03:34,724
+continuous deployment help create a fully automated deployment pipeline,
+
+49
+00:03:34,724 --> 00:03:39,102
+which is important all through the application development lifecycle.
+
+50
+00:03:39,102 --> 00:03:43,819
+Cloud native applications form a complex distributed system with multiple
+
+51
+00:03:43,819 --> 00:03:48,274
+moving parts, independent tech stacks, and rapid release cycles.
+
+52
+00:03:48,274 --> 00:03:53,509
+DevOps principles are essential to define how people work together to build,
+
+53
+00:03:53,509 --> 00:03:57,858
+deploy, and manage applications in a cloud native approach.
+
+54
+00:03:57,858 --> 00:04:01,489
+With the DevOps best practices of automated provisioning and
+
+55
+00:04:01,489 --> 00:04:05,610
+continuous deployment, developers, quality professionals, and
+
+56
+00:04:05,610 --> 00:04:10,429
+other stakeholders can test in low cost production-like test environments that
+
+57
+00:04:10,429 --> 00:04:15,188
+were previously not available, enhancing both productivity and quality.
+
+58
+00:04:15,188 --> 00:04:20,698
+When systems are compromised or struggling to recover from natural disasters, DevOps
+
+59
+00:04:20,698 --> 00:04:25,930
+best practices make it possible to rebuild these systems quickly and reliably.
+
+60
+00:04:25,930 --> 00:04:30,060
+DevOps provides a powerful set of principles, practices, and
+
+61
+00:04:30,060 --> 00:04:34,879
+tools to realize the full potential of cloud native computing as well as for
+
+62
+00:04:34,879 --> 00:04:39,178
+modernizing existing applications to leverage cloud benefits.
+
+63
+00:04:39,178 --> 00:04:39,678
+[MUSIC]
+

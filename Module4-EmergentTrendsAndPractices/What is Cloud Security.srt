@@ -1,0 +1,316 @@
+0
+00:00:07,120 --> 00:00:10,880
+Welcome to What is Cloud Security Part 2.
+
+1
+00:00:10,880 --> 00:00:14,590
+Organizations are migrating their workload to a hybrid cloud environment increasing the
+
+2
+00:00:14,590 --> 00:00:16,100
+threat attack surface.
+
+3
+00:00:16,100 --> 00:00:20,500
+This expansion can result in new data security and compliance challenges.
+
+4
+00:00:20,500 --> 00:00:26,869
+Thus, you require a robust data-centric cybersecurity program to protect your data.
+
+5
+00:00:26,869 --> 00:00:31,960
+In addition, you require centralized visibility and monitoring against unauthorized access,
+
+6
+00:00:31,960 --> 00:00:35,810
+exposure, or data theft across your enterprise data environment.
+
+7
+00:00:35,810 --> 00:00:42,020
+Let’s discuss some data security capabilities that you can implement to protect your data.
+
+8
+00:00:42,020 --> 00:00:47,450
+To secure data, you can improve maturity across people, process, and technology.
+
+9
+00:00:47,450 --> 00:00:52,750
+Identify your most critical data assets, who has access to them, and how they are protected.
+
+10
+00:00:52,750 --> 00:00:58,340
+You can prevent data loss by detecting, preventing, and enforcing policy violations to avoid accidental
+
+11
+00:00:58,340 --> 00:01:00,370
+data loss.
+
+12
+00:01:00,370 --> 00:01:05,230
+Implement data security governance by establishing process, metrics, and continuous steady-state
+
+13
+00:01:05,230 --> 00:01:07,970
+data discovery and classification.
+
+14
+00:01:07,970 --> 00:01:12,710
+In addition, it is critical to monitor database security by enforcing data protection and
+
+15
+00:01:12,710 --> 00:01:17,630
+compliance policies across hybrid cloud environments.
+
+16
+00:01:17,630 --> 00:01:23,070
+Your next focus in a cloud environment should be the management of access controls and authentication.
+
+17
+00:01:23,070 --> 00:01:28,520
+You need to develop Cloud identity and access management (IAM) strategies that provide and
+
+18
+00:01:28,520 --> 00:01:34,500
+work on zero trust architecture, risk protection, and constantly authenticate any user to any
+
+19
+00:01:34,500 --> 00:01:35,510
+resource.
+
+20
+00:01:35,510 --> 00:01:40,340
+An organization should consider the following points while building the IBM cloud:
+
+21
+00:01:40,340 --> 00:01:44,840
+Modernize at your own pace, matching your business requirements.
+
+22
+00:01:44,840 --> 00:01:50,170
+Retain your existing investments and on-premises applications, while slowly inducting the right
+
+23
+00:01:50,170 --> 00:01:55,049
+cloud IAM architecture to complement or replace your framework.
+
+24
+00:01:55,049 --> 00:01:59,619
+Establish a zero-trust implementation that will provide a centralized access control,
+
+25
+00:01:59,619 --> 00:02:06,009
+preserve client confidentiality, reduce insider threats, and secure your remote resources.
+
+26
+00:02:06,009 --> 00:02:10,459
+Zero trust model and plan use an environment that securely connects the right users to
+
+27
+00:02:10,459 --> 00:02:15,050
+the right data at the right time under the right conditions, while also protecting your
+
+28
+00:02:15,050 --> 00:02:18,000
+organization from cyber threats.
+
+29
+00:02:18,000 --> 00:02:23,340
+Enable scalability for your cloud IAM for millions of users or transactions without
+
+30
+00:02:23,340 --> 00:02:25,750
+a major modification of the infrastructure.
+
+31
+00:02:25,750 --> 00:02:30,500
+Another element of cloud security is cloud network security which refers to the security
+
+32
+00:02:30,500 --> 00:02:36,380
+measures, technology, policies, controls, and processes used to protect data on public,
+
+33
+00:02:36,380 --> 00:02:38,860
+private, and hybrid cloud networks.
+
+34
+00:02:38,860 --> 00:02:44,420
+There are many security implications when you extend your network to a cloud environment.
+
+35
+00:02:44,420 --> 00:02:48,970
+To meet modern network security requirements, organizations need to deploy and manage network
+
+36
+00:02:48,970 --> 00:02:51,590
+security built directly on the cloud.
+
+37
+00:02:51,590 --> 00:02:57,560
+The benefits of cloud network security are: Centralized security monitoring and management
+
+38
+00:02:57,560 --> 00:03:03,200
+Easy management and updating of granular policies Real-time detection and powerful prevention
+
+39
+00:03:03,200 --> 00:03:07,950
+against intrusions, DDoS, and other web-based attacks
+
+40
+00:03:07,950 --> 00:03:12,860
+Automated configuration and management, helping to eliminate misconfiguration errors, and
+
+41
+00:03:12,860 --> 00:03:17,640
+maintain control over traffic Encryption services to protect data at rest
+
+42
+00:03:17,640 --> 00:03:21,470
+and in transit Centralized protection and management of identity
+
+43
+00:03:21,470 --> 00:03:25,530
+and access Let’s summarize the best practices you can
+
+44
+00:03:25,530 --> 00:03:27,590
+follow for cloud security.
+
+45
+00:03:27,590 --> 00:03:31,330
+There are some critical steps under three phases that you can follow.
+
+46
+00:03:31,330 --> 00:03:34,940
+First is identifying your cloud usage state and risks.
+
+47
+00:03:34,940 --> 00:03:39,840
+Second is protecting your cloud system, and third is responding to attacks.
+
+48
+00:03:39,840 --> 00:03:44,260
+The first phase comprises: Identifying how your data is accessed
+
+49
+00:03:44,260 --> 00:03:49,110
+Detecting unknown cloud usage Checking your configurations for cloud services
+
+50
+00:03:49,110 --> 00:03:52,840
+Monitoring for signs of malicious usage of cloud data
+
+51
+00:03:52,840 --> 00:03:55,950
+In the second phase, you can protect your cloud system by:
+
+52
+00:03:55,950 --> 00:03:59,950
+Assigning protection policies Encrypting sensitive data
+
+53
+00:03:59,950 --> 00:04:05,670
+Formulating policies for data sharing Restricting data sharing to unknown devices
+
+54
+00:04:05,670 --> 00:04:09,040
+Implementing a bot protection and mitigation solution
+
+55
+00:04:09,040 --> 00:04:14,940
+Using a proper anti-malware solution The third phase offers best practices for
+
+56
+00:04:14,940 --> 00:04:20,540
+responding to attacks and attempts to attack: Add additional authentication and verification
+
+57
+00:04:20,540 --> 00:04:27,590
+steps for high-risk access scenarios Add new policies for new cloud services
+
+58
+00:04:27,590 --> 00:04:33,450
+The National Institute of Standards and Technology (NIST) has made a list of best practices and
+
+59
+00:04:33,450 --> 00:04:38,669
+principles that establish a secure and sustainable cloud computing framework.
+
+60
+00:04:38,669 --> 00:04:44,440
+These principles are NIST's five pillars of a cybersecurity framework: Identify, Protect,
+
+61
+00:04:44,440 --> 00:04:48,010
+Detect, Respond, and Recover.
+
+62
+00:04:48,010 --> 00:04:52,759
+Another emerging technology in cloud security that supports cybersecurity framework is cloud
+
+63
+00:04:52,759 --> 00:04:56,639
+security posture management (CSPM).
+
+64
+00:04:56,639 --> 00:05:03,229
+CSPM solutions are designed to address a common error in many cloud environments, that is,
+
+65
+00:05:03,229 --> 00:05:04,560
+misconfigurations.
+
+66
+00:05:04,560 --> 00:05:09,480
+CPSM also addresses issues by helping in the deployment of the core components of cloud
+
+67
+00:05:09,480 --> 00:05:11,180
+security.
+
+68
+00:05:11,180 --> 00:05:17,720
+They include identity and access management (IAM), regulatory compliance management, traffic
+
+69
+00:05:17,720 --> 00:05:23,169
+monitoring, threat response, risk mitigation, and digital asset management.
+
+70
+00:05:23,169 --> 00:05:28,400
+The colossal increase in cloud adoption across the cyberworld will motivate cybercriminals
+
+71
+00:05:28,400 --> 00:05:31,620
+to target organizations in the cloud environment.
+
+72
+00:05:31,620 --> 00:05:35,920
+Although organizations are taking adequate security measures, they are still vulnerable
+
+73
+00:05:35,920 --> 00:05:38,020
+to cyber-attacks.
+
+74
+00:05:38,020 --> 00:05:43,360
+The current major trend in cloud security includes multi-cloud strategies such as cybersecurity
+
+75
+00:05:43,360 --> 00:05:48,960
+mesh, zero-trust security models, hybrid and multi-cloud environment, cloud-native tools
+
+76
+00:05:48,960 --> 00:05:55,650
+and applications, deployment of DevSecOps, securing remote workforces, and AI and machine
+
+77
+00:05:55,650 --> 00:05:57,919
+learning for threat detection.
+
+78
+00:05:57,919 --> 00:06:04,719
+The focus is on privacy and data protection regulations.
+
